@@ -1,3 +1,6 @@
 var nome = window.prompt('Digite o nome');
 
-var window.confirm('Deseja informar mais algum nome?');
+var conf = window.confirm('Deseja informar mais algum nome?');
+if (conf = false){
+    window.alert(nome)
+}
