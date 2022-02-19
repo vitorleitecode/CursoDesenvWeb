@@ -1,8 +1,12 @@
 function parimpar (n) {
+    let numero =0;
+    let perguntaPorMaisNumeros = true;
+    do{
+        numero = prompt("Digite um número");
     if (n%2 == 0){
-        return 'Par'
+        alert ('Par');
     } else {
-        return 'Impar'
+        alert ('Impar');
     }
 }
 
